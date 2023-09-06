@@ -17,7 +17,7 @@ mvn clean install
 
 Run:
 
-- in generaget /target directory run command
+- in generated /target directory run command
 
 ```
 java -jar .\task-0.0.1-SNAPSHOT.jar
@@ -32,7 +32,7 @@ application will be run on port :8080
 
 ```
 url localhost:8080/shapes
-method POST
+method GET
 ```
 
 Request body examples:
