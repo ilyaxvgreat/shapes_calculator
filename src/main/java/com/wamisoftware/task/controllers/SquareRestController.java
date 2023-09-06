@@ -15,7 +15,7 @@ import javax.validation.Valid;
 
 @Validated
 @RestController
-@RequestMapping
+@RequestMapping("/shapes")
 @RequiredArgsConstructor
 public class SquareRestController {
 

@@ -12,11 +12,11 @@ public class Triangle extends AbstractShape {
 
     @NotNull(message = "Please provide side for Triangle")
     @DecimalMin(value = "0", inclusive = false, message = "side for Triangle should be more than 0")
-    private final double side;
+    private final Double side;
 
     @NotNull(message = "Please provide height value to side for Triangle")
     @DecimalMin(value = "0", inclusive = false, message = "height for Triangle should be more than 0")
-    private final double height;
+    private final Double height;
 
     @Override
     public double calculateArea() {

@@ -1,4 +1,4 @@
-package com.wamisoftware.task.services;
+package com.wamisoftware.task.services.shapes;
 
 import com.wamisoftware.task.dto.shapes.Shape;
 import lombok.RequiredArgsConstructor;

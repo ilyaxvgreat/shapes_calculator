@@ -12,7 +12,7 @@ public class Square extends AbstractShape {
 
     @NotNull(message = "Please provide side for Square")
     @DecimalMin(value = "0", inclusive = false, message = "side for Square should be more than 0")
-    private final double side;
+    private final Double side;
 
     @Override
     public double calculateArea() {

@@ -1,4 +1,4 @@
-package com.wamisoftware.task.services;
+package com.wamisoftware.task.services.shapes;
 
 import com.wamisoftware.task.dto.request.ShapeRequestDto;
 import com.wamisoftware.task.dto.shapes.Circle;
@@ -22,7 +22,7 @@ public class ShapeFactory {
         String shapeType = shapeRequest.getShapeType().toLowerCase();
         return switch (shapeType) {
             case SQUARE -> new Square(shapeRequest.getSide());
-            case RECTANGLE -> new Rectangle(shapeRequest.getHeight(), shapeRequest.getWidth());
+            case RECTANGLE -> new Rectangle(shapeRequest.getWidth(), shapeRequest.getHeight());
             case TRIANGLE -> new Triangle(shapeRequest.getSide(), shapeRequest.getHeight());
             case CIRCLE -> new Circle(shapeRequest.getRadius());
             default -> throw new IllegalArgumentException("Unsupported shape type: " + shapeType + ". Please use next shapeType:" + Arrays.toString(Shapes.values()));

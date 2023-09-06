@@ -3,8 +3,8 @@ package com.wamisoftware.task.decorators;
 import com.wamisoftware.task.dto.request.ShapeRequestDto;
 import com.wamisoftware.task.dto.response.ShapeResponseDto;
 import com.wamisoftware.task.dto.shapes.Shape;
-import com.wamisoftware.task.services.ShapeFactory;
-import com.wamisoftware.task.services.ShapeService;
+import com.wamisoftware.task.services.shapes.ShapeFactory;
+import com.wamisoftware.task.services.shapes.ShapeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

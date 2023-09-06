@@ -12,11 +12,11 @@ public class Rectangle extends AbstractShape {
 
     @NotNull(message = "Please provide width for Rectangle")
     @DecimalMin(value = "0", inclusive = false, message = "width for Rectangle should be more than 0")
-    private final double width;
+    private final Double width;
 
     @NotNull(message = "Please provide height for Rectangle")
     @DecimalMin(value = "0", inclusive = false, message = "height for Rectangle should be more than 0")
-    private final double height;
+    private final Double height;
 
     @Override
     public double calculateArea() {
